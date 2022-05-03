@@ -370,13 +370,37 @@
                 </li>
             </ul>
             </div>
+            <div class="footer-input">
+                <strong class="input-title">Подпишитесь на рассылку</strong>
+                <div class="footer-input-email">
+            <form>
+                <input type="email" class="input-email" name="email" placeholder="E-mail" />
+                <button type="submit" class="modal-btn">Подписаться<svg class="social-soc-icon" width="24" height="24">
+                    <use href="./images/icon/symbol-defs.svg#icon-icon-send"></use></button>
+            </form>
+            </div>
+            </div>
     </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="modal-close-btn" data-modal-close><svg class="social-soc-icon" width="11" height="11">
-                    <use href="./images/icon/symbol-defs.svg#icon-cross"></use>
+                <button type="button" class="modal-close-btn" data-modal-close><svg class="social-soc-icon" width="18" height="18">
+                    <use href="./images/icon/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
                 </svg></button>
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <form>
+                    <label class="modal-label" for="name">Имя</label>
+                    <input type="text" class="modal-input" name="name" id="name" />
+                    <label class="modal-label" for="tel">Телефон</label>
+                    <input type="tel" class="modal-input" name="tel" id="tel" />
+                    <label class="modal-label" for="email">Почта</label>
+                    <input type="" class="modal-input" name="email" id="email" />
+                    <label class="modal-label" for="comment">Комментарий</label>
+                    <textarea class="comment-text" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                    <label class="modal-label-checkbox" for="name"><input type="checkbox" name="agreement" value="agreement" checked />  Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
+                    </label>
+                    <button type="submit" class="modal-btn">Отправить</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
