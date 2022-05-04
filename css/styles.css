@@ -636,6 +636,36 @@ margin-bottom: 9px;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
+    color: #FFFFFF;
+    margin-right: 12px;
+    
+}
+
+.modal-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    background-color: var(--focus-color);
+    color: var(--hero-text-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #188CE8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /*------------------------PORTFOLIO-----------------------*/
@@ -932,48 +962,3 @@ padding-left: 7px;
     background-origin: border-box;
 }
 
-.modal-btn {
-    padding: 10px 32px;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    width: 200px;
-    height: 50px;
-    background-color: var(--focus-color);
-    color: var(--hero-text-color);
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.modal-btn:hover,
-.modal-btn:focus {
-    background-color: #188CE8;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-/*.submit{
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}*/
-/*.modal-input:valid{
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-.modal-input:invalid{
-    border: 1px solid #2196F3;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-*/
