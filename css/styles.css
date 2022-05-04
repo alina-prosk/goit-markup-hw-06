@@ -897,6 +897,40 @@ color: #757575;
 padding-left: 7px;
 }
 
+.checkbox{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.modal-label{
+    display: flex;
+    align-items: center;
+}
+
+.icon-checkbox{
+  display: block;
+  width: 16px;
+  height: 15px; 
+  margin-right: 5px;
+  border: 2px solid var(--h-color); 
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .icon-checkbox{
+    border-color: transparent;
+    border-color: var(--focus-color);
+    background-image: url(../images/icon/symbol-defs.svg#"icon-icon-check");
+    background-size: contain;
+    background-origin: border-box;
+}
+
 .modal-btn {
     padding: 10px 32px;
     font-family: 'Roboto';
