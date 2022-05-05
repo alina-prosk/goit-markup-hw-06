@@ -419,17 +419,20 @@
                     </svg>
                     </div>
                     </div>
-                    <div class="modal-fiild">
                     <label class="modal-label" for="comment">Комментарий</label>
-                    <textarea class="comment-text" name="comment" id="comment" placeholder="Введите текст"></textarea>
-                    <label class="modal-label-checkbox">
-                        <input class="checkbox" type="checkbox" name="agreement" value="agreement" checked />
+                    <textarea class="comment-text" name="comment" id="comment" placeholder="Введите текст">
+                    </textarea><div class="modal-fiild">
+                    
+                    <label class="modal-label-checkbox" for="input-check">
+                        <input class="checkbox" type="checkbox" name="agreement" value="agreement" id="input-check" checked />
                         <span class="icon-checkbox">
                             <svg class="check-icon" width="11" height="8">
                             <use href="./images/icon/symbol-defs.svg#icon-icon-check"></use>
                         </svg></span>
                         <span>Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
                     </label>
+                    
+                    </div>
                     <div class="modal-submit-btn">
                     <button type="submit" class="modal-btn">Отправить</button>
                     </div>
