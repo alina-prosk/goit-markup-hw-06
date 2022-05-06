@@ -854,7 +854,7 @@ margin-bottom: 9px;
 }
 
 .backdrop.is-hidden .modal {
-    transform: scaleX(0.5), opasity 250ms;
+    transform: scaleX(0.5) opasity 250ms;
 }
 
 .modal-close-btn{
